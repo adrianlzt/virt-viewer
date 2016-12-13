@@ -304,7 +304,7 @@ msgstr "Error de redirección USB: %s"
 #: ../src/virt-viewer-app.c:1882
 #, c-format
 msgid "Zoom level must be within %d-%d\n"
-msgstr "Nivel de enfoque debe estar dentro de %d-%d\n"
+msgstr "Nivel de amplicación debe estar dentro de %d-%d\n"
 
 #: ../src/virt-viewer-app.c:1937
 #, c-format
@@ -332,7 +332,7 @@ msgstr "Mostrar información de versión"
 
 #: ../src/virt-viewer-app.c:2635
 msgid "Zoom level of window, in percentage"
-msgstr "Nivel de enfoque de ventana, en porcentaje"
+msgstr "Nivel de amplicación de ventana, en porcentaje"
 
 #: ../src/virt-viewer-app.c:2637
 msgid "Open in full screen mode (adjusts guest resolution to fit the client)"
@@ -342,7 +342,7 @@ msgstr ""
 
 #: ../src/virt-viewer-app.c:2639
 msgid "Customise hotkeys"
-msgstr "Personalizar teclas calientes"
+msgstr "Personalizar teclas atajo"
 
 #: ../src/virt-viewer-app.c:2641
 msgid "Enable kiosk mode"
@@ -439,7 +439,7 @@ msgstr "Seleccione los dispositivos USB para redirigir"
 #: ../src/virt-viewer-session-spice.c:793
 #: ../src/virt-viewer-guest-details.xml.h:2
 msgid "_Close"
-msgstr ""
+msgstr "_Cerrar"
 
 #: ../src/virt-viewer-session-vnc.c:156
 #, c-format
@@ -512,7 +512,7 @@ msgstr "Ctrl+Alt+F12"
 
 #: ../src/virt-viewer-window.c:925
 msgid "_Save"
-msgstr ""
+msgstr "_Guardar"
 
 #: ../src/virt-viewer-window.c:933 ../src/virt-viewer.xml.h:2
 msgid "Screenshot"
@@ -546,7 +546,7 @@ msgstr "Ctrl+Alt"
 #: ../src/virt-viewer-window.c:1190
 #, c-format
 msgid "(Press %s to release pointer)"
-msgstr "(Presione %s para liberar el  puntero)"
+msgstr "(Presione %s para liberar el puntero)"
 
 #. translators:
 #. * This is "<ungrab (or empty)><space (or empty)><subtitle (or empty)> - <appname>"
@@ -646,11 +646,11 @@ msgstr "Huésped '%s' no está alcanzable"
 #: ../src/virt-viewer.c:783
 #, c-format
 msgid "Virtual machine %s is not running"
-msgstr "Máquina virtual %s no está en ejecución"
+msgstr "La máquina virtual %s no está en ejecución"
 
 #: ../src/virt-viewer.c:806
 msgid "Waiting for libvirt to start"
-msgstr "Esperando a libvirt para inicio"
+msgstr "Esperando a que libvirt inicie"
 
 #: ../src/virt-viewer.c:810
 msgid "Finding guest domain"
@@ -702,11 +702,11 @@ msgstr "_Fichero"
 
 #: ../src/virt-viewer.xml.h:4
 msgid "Smartcard insertion"
-msgstr "Inserción de smartcard"
+msgstr "Insertar smartcard"
 
 #: ../src/virt-viewer.xml.h:5
 msgid "Smartcard removal"
-msgstr "Retiro de smartcard"
+msgstr "Extraer smartcard"
 
 #: ../src/virt-viewer.xml.h:6 ../src/virt-viewer-preferences.xml.h:1
 msgid "Preferences"
@@ -714,7 +714,7 @@ msgstr "Preferencias"
 
 #: ../src/virt-viewer.xml.h:7
 msgid "_Quit"
-msgstr ""
+msgstr "_Salir"
 
 #: ../src/virt-viewer.xml.h:8
 msgid "_View"
@@ -726,20 +726,20 @@ msgstr "Pantalla completa"
 
 #: ../src/virt-viewer.xml.h:10
 msgid "_Zoom"
-msgstr "_Enfoque"
+msgstr "_Amplicación"
 
 #: ../src/virt-viewer.xml.h:11
 #, fuzzy
 msgid "Zoom _In"
-msgstr "_Enfoque"
+msgstr "_Ampliar"
 
 #: ../src/virt-viewer.xml.h:12
 msgid "Zoom _Out"
-msgstr ""
+msgstr "_Reducir"
 
 #: ../src/virt-viewer.xml.h:13
 msgid "_Normal Size"
-msgstr ""
+msgstr "_Tamaño normal"
 
 #: ../src/virt-viewer.xml.h:14
 msgid "Displays"
@@ -751,7 +751,7 @@ msgstr "Liberar cursor"
 
 #: ../src/virt-viewer.xml.h:16
 msgid "_Send key"
-msgstr "_Enviar llave"
+msgstr "_Enviar tecla"
 
 #: ../src/virt-viewer.xml.h:17
 msgid "_Help"
@@ -763,7 +763,7 @@ msgstr "_Detalles de Huésped"
 
 #: ../src/virt-viewer.xml.h:19
 msgid "_About"
-msgstr ""
+msgstr "_Acerca de"
 
 #: ../src/virt-viewer-guest-details.xml.h:1
 msgid "Guest Details"
@@ -800,7 +800,7 @@ msgstr "Compartición de carpeta"
 
 #: ../src/virt-viewer-preferences.xml.h:3
 msgid "Share folder"
-msgstr "Compartir capr"
+msgstr "Compartir carp"
 
 #: ../src/virt-viewer-preferences.xml.h:4
 msgid "Read-only"
@@ -811,10 +811,10 @@ msgid "Spice"
 msgstr "Spice"
 
 #~ msgid "Source"
-#~ msgstr "Fuente"
+#~ msgstr "Origen"
 
 #~ msgid "The source of the binding"
-#~ msgstr "La fuente de la conexión"
+#~ msgstr "El origen de la conexión"
 
 #~ msgid "Target"
 #~ msgstr "Destino"
@@ -823,16 +823,16 @@ msgstr "Spice"
 #~ msgstr "El destino de la conexión"
 
 #~ msgid "Source Property"
-#~ msgstr "Propiedad de la Fuente"
+#~ msgstr "Propiedad del origen"
 
 #~ msgid "The property on the source to bind"
-#~ msgstr "La propiedad en la fuente que va a conectar"
+#~ msgstr "La propiedad en el origen que va a conectar"
 
 #~ msgid "Target Property"
 #~ msgstr "Propiedad de Destino"
 
 #~ msgid "The property on the target to bind"
-#~ msgstr "La propiedad en la fuente que va a conectar"
+#~ msgstr "La propiedad en el origen que va a conectar"
 
 #~ msgid "Flags"
 #~ msgstr "Indicadores"
